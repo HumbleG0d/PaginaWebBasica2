@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    position: relative;
+    overflow: hidden;
+    height: 65px;
+    background-color: rgb(0 0 0);
+    font-size: 30px;
+}
+
+.list{
+    position: relative;
+}
+
+.li,
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+.op{
+    position: relative;
+    top: -0.6875rem;
+}
+
+.li{
+    display: inline-block;
+    margin-left: 0.625rem;
+    font-size: 0.5em;
+}
+
+.camera{
+    position: absolute;
+    top: -0.25rem;
+    left: 0.3125rem;
+}
+
+.group-bottons{
+    position: absolute;
+    right: 0.75rem;
+    top: 0.9375rem;
+}
+
+.button1,
+.button2{
+    color: rgb( 255 255 255);
+    border-radius: 0.3125rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.5em;
+}
+
+.button1{
+    background-color: rgba(80, 78, 78, 0.5);
+    border: 0.03125rem solid rgb( 255 255 255);
+    margin-right: 0.75rem;
+}
+
+.button2{
+    background-color: rgb(76, 95, 213);
+}
+
+.main{
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.conteiner{
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(218, 219, 241);
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.title{
+    margin-top: 12.0625rem;
+}
+
+.barra{
+    border-radius: 0.275rem;
+    border: 0.8px solid rgba(80 78 78 / 0.5);
+    color: lightgrey;
+    width: 530px;
+    font-size: 0.5em;
+    padding: 0.75rem 0.4375rem;
+    box-shadow: 2px 2px 0.5px rgb(0 0 0 / 0.5);
+}
+
+.section-2{
+    margin-top: 80px;
+    font-size: 30px;
+    height: 700px;
+    position: relative;
+}
+
+.article-1{
+    position: relative;
+    margin-left: 120px;
+    width: 30%;
+    height: 150px;
+}
+
+.s-conteiner,
+.s-conteiner-1,
+.s-conteiner-3,
+.s-conteiner-4,
+.s-conteiner-5{
+    position: absolute;
+    text-align: left;
+    height: 150px;
+    width: 290px;
+    top: 1px;
+    left: 150px;
+}
+
+.img{
+    position: absolute;
+    top: 11px;
+}
+
+.s-title{
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.parrafo-1{
+    font-size: 0.5em;
+    margin: 0px;
+}
+
+.LM{
+    text-decoration: none;
+    font-size: 0.5em;
+    color: rgb(76, 95, 213);
+}
+
+.article-2{
+    position: absolute;
+    margin-left: 120px;
+    width: 30%;
+    height: 150px;
+    top: 0;
+    right: 140px;
+}
+
+.article-3,
+.article-5{
+    margin-top: 80px;
+    position: relative;
+    margin-left: 120px;
+    width: 36%;
+    height: 150px;
+}
+
+.s-conteiner-2{
+    position: absolute;
+    text-align: left;
+    height: 150px;
+    width: 380px;
+    top: 1px;
+    left: 150px;
+}
+
+.article-4{
+    position: absolute;
+    margin-left: 120px;
+    width: 30%;
+    height: 150px;
+    top: 230px;
+    right: 140px;
+}
+
+.article-6{
+    position: absolute;
+    margin-left: 120px;
+    width: 30%;
+    height: 150px;
+    top: 455px;
+    right: 140px;
+}
+
+.footer{
+    position: relative;
+    font-size: 30px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255 255 255);
+}
+
+.f-title{
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+.a-title{
+    margin-top: 40px;
+    font-size: 0.4em;
+}
+
+.address{
+    font-size: 0.4em;
+}
+
+.f-li{
+    font-size: 0.4em;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.f-list{
+    margin: 0px;
+    text-align: left;
+    margin-left: -35px;
+}
+
+.f-continer{
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+
+.f-continer-1{
+    position: absolute;
+    left: 400px;    
+    top: 20px;
+}
+
+.f-continer-2{
+    position: absolute;
+    left: 700px;
+    top: 20px;
+}
+
+.f-continer-3{
+    position: absolute;
+    right: 400px;
+    top: 20px;
+}
+
+.f-continer-4{
+    position: absolute;
+    font-size: 0.4em;
+    font-weight: bold;
+    bottom: 50px;
+    right: 150px;
+}
+
+.span{
+    display: block;
+}
+
+
+
+
+
+
+
